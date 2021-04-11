@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:tokota/screen/complete_profile/complete_profile_screen.dart';
 import 'package:tokota/screen/forgot_password/forgot_password_screen.dart';
+import 'package:tokota/screen/home/home_screen.dart';
 import 'package:tokota/screen/login_success/login_success_screen.dart';
 import 'package:tokota/screen/phone_otp/phone_otp_screen.dart';
 import 'package:tokota/screen/sign_in/sign_in_screen.dart';
@@ -17,4 +18,6 @@ final Map<String, WidgetBuilder> route = {
   SignUpScreen.routeName: (context) => SignUpScreen(),
   CompleteProfile.routeName: (context) => CompleteProfile(),
   PhoneOtpScreen.routeName: (context) => PhoneOtpScreen(),
+  HomeScreen.routeName: (context) => HomeScreen(),
+
 };

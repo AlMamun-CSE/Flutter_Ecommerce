@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:tokota/components/default_button.dart';
+import 'package:tokota/screen/home/home_screen.dart';
 import 'package:tokota/size_config.dart';
 
 class Body extends StatelessWidget {
@@ -25,7 +26,7 @@ class Body extends StatelessWidget {
           child: DefaultButton(
             text: "Back To Home",
             press: (){
-
+              Navigator.pushNamed(context, HomeScreen.routeName);
             },
           ),
         ),
